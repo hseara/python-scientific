@@ -7,14 +7,14 @@
 
 # Scientific Python - numpy_scipy (SPy-np)
 ############################################
-jupyter nbconvert SPy-np-A1-00.ipynb --to slides
+jupyter nbconvert SPy-np-a1-00.ipynb --to slides
 
 
 
 # Scientific Python - matplotlib (SPy-mpl)
 ############################################
-jupyter nbconvert SPy-mpl-A1-00.ipynb --to slides
-jupyter nbconvert SPy-mpl-A1-01.ipynb --to slides
+jupyter nbconvert SPy-mpl-a1-00.ipynb --to slides
+jupyter nbconvert SPy-mpl-a1-01.ipynb --to slides
 
 
 
