@@ -1,8 +1,4 @@
 #!/bin/sh
 
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace a1-PyIntro/*.ipynb
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace a2-PyIntro/*.ipynb
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace b1-PyInter/*.ipynb
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace b2-PyInter/*.ipynb
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace c1-PyAdv/*.ipynb
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace *.ipynb
 
