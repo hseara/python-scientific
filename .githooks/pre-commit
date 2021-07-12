@@ -1,4 +1,6 @@
 #!/bin/sh
 
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace *.ipynb
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace numpy/*.ipynb
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace mpl/*.ipynb
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace pandas/*.ipynb
 
